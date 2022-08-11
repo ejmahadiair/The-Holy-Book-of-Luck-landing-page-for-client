@@ -76,7 +76,7 @@ const ContactPage = () => {
     <>
       <div id="contact" className="contact-page-container">
         <div className="form-box">
-          <form action="mailto:contact@as-alzein.com" onSubmit={sendEmail}>
+          <form onSubmit={sendEmail}>
             <input
               type="text"
               name="name"
